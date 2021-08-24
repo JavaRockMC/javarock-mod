@@ -1,29 +1,32 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "uwu",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "JavaRock Mod",
+  "description": "A mod for the JavaRock Minecraft server",
   "authors": [
-    "Me!"
+    "DUDEbehindDUDE",
+    "035WasTaken",
+    "WSCKR",
+    "TJDoesCode"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://javarock.site/",
+    "sources": "https://github.com/JavaRockMC/javarock-mod"
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/uwu/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "site.javarockmc.uwu.Main"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "uwu.mixins.json"
   ],
 
   "depends": {
@@ -33,6 +36,5 @@
     "java": ">=16"
   },
   "suggests": {
-    "another-mod": "*"
   }
 }
